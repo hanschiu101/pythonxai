@@ -1,0 +1,20 @@
+M(3:13)(3:20*4)(3:22*3)(3:15)(3:43遊戲)(4:05*3)(3:38)(9:09)(9:29)👑
+R(3:12)(3:14)(3:28)
+小林(9:19)
+import streamlit as st
+import os
+
+ss=st.session_state
+
+image_folder = "image"
+image_files = os.listdir(image_folder)
+image_files.sort()
+
+if "cart" not in ss:
+    ss.product={}
+    for image_file in image_files:
+        product_name=image_file[:-4]
+        ss.product[product_name]={
+            image_path:image_folder+"/"+image_file,
+        }
+st.title("購物平台")

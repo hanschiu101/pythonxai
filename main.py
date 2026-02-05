@@ -14,8 +14,9 @@ all_pages = {
         st.Page("pages/class2-7.py", title="排版練習", icon="🔺"),
         st.Page("pages/class3-1.py", title="購物籃系統", icon="🛒"),
         st.Page("pages/class3-5.py", title="猜數字", icon="🎲"),
+        st.Page("pages/class4-1.py", title="圖片元件", icon="🖼️"),
+        st.Page("pages/class4-2.py", title="shop", icon="🖼️"),
     ],
 }
-
 nav = st.navigation(all_pages, position="sidebar")
 nav.run()
