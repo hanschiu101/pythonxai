@@ -15,7 +15,14 @@ all_pages = {
         st.Page("pages/class3-1.py", title="購物籃系統", icon="🛒"),
         st.Page("pages/class3-5.py", title="猜數字", icon="🎲"),
         st.Page("pages/class4-1.py", title="圖片元件", icon="🖼️"),
-        st.Page("pages/class4-2.py", title="shop", icon="🖼️"),
+        st.Page("pages/class4-2.py", title="shop", icon="🧺"),
+        st.Page("pages/class5-4.py", title="對話輸入", icon="👑"),
+        st.Page("pages/class5-5.py", title="對話紀錄", icon="💬"),
+        st.Page("pages/class5-6.py", title="對話ai", icon="❤️"),
+        st.Page("pages/class5-7.py", title="上傳圖片", icon="🤣"),
+        st.Page("pages/class5-8.py", title="AI圖片分析", icon="🤖"),
+        st.Page("pages/class5-9.py", title="載入動畫", icon="😒"),
+        st.Page("pages/class5-10.py", title="AI圖片生成", icon="👌"),
     ],
 }
 nav = st.navigation(all_pages, position="sidebar")
